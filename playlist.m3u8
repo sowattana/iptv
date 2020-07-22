@@ -1,46 +1,38 @@
 #EXTM3U
 #PLAYLIST:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1TgC7mx.jpg" group-title="News;Undefined",Bayon TV
-http://203.176.130.123:8989/live/bayontv_480k.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="Undefined",Fresh News TV
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1TgC7mx.jpg" group-title="Khmer TV",Bayon TV
+http://mobile.interface.stmg.net.kh/nn_cms/nn_cms_view/jpz/n3_a_a.php?nns_version=2.3.7.0.2.SC-JPZ-IPAD.0.0_Release&amp;nns_output_type=json&amp;nns_user_agent=nn_pad/ipad/1.0.0&amp;nns_language=en_US&amp;nns_tag=28&amp;nns_user_id=IPADB123456789089756745634523456CA&amp;nns_device_id=&amp;nns_buss_id=2000002&amp;nns_category_id=1000001&amp;nns_func=apply_play_video&amp;nns_mac_id=112233445566&amp;nns_media_assets_id=pad_live_v1&amp;nns_media_id=3fab1344412c07302c3710e9f474ef72&amp;nns_video_id=8bbf89d7eb9e8230be83780d9bf6e7f2&amp;nns_video_index=0&amp;nns_video_type=1
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="Khmer TV",Fresh News TV
 http://167.99.65.12:1935/live/ngrp:myStream_all/chunklist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Undefined",PNN
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Khmer TV",PNN
 http://203.176.130.123:8989/live/pnn_480k.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/KGbDcg1.jpg" group-title="Undefined",TV9
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/KGbDcg1.jpg" group-title="Khmer TV",TV9
 http://203.176.130.123:8989/live/ctv9_480k.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Undefined",TVK
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Khmer TV",TVK
 http://203.176.130.123:8989/live/tvk_480k.stream/chunklist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Cartoon Network
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Cartoon Network
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6931.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Disney Channel
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Disney Channel
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6925.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Disney Junior
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Disney Junior
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6927.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Disney XD
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Disney XD
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/8983.m3u8?checkedby:iptvcat.com
 #EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",FOX Sports 2
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6933.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",CNN
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",CNN
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6411.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Discovery
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Discovery
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/362.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Discovery Channel
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Discovery Channel
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/9509.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",HBO
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",HBO
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/827.m3u8?checkedby:iptvcat.com
 #EXTINF:0 tvg-country="KR" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92706/14090001.png" group-title="Undefined",Arirang,Arirang HD
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",Arirang (HD)
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="International TV",Arirang (HD)
 http://iptv1.privateiptv.club:80/live/freeview/freeview/861.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",NHK World (HD)
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="International TV",NHK World (HD)
 http://iptv1.privateiptv.club:80/live/freeview/freeview/855.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",Cartoon Network (Canada)
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="International TV",Cartoon Network (Canada)
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/2725.m3u8?checkedby:iptvcat.com
-#EXTINF:-1,NATIONAL GEOGRAPHIC
-http://220.158.149.25:8180/live/TV00000000000000000115@HHZT
-#EXTINF:-1,TV5 CAMBODIA
-http://220.158.149.25:8180/live/TV00000000000000000117@HHZT
-#EXTINF:-1,RASMEY HANG MEAS
-http://220.158.149.25:8180/live/TV00000000000000000119@HHZT
-#EXTINF:-1,CTV9
-http://220.158.149.25:8180/live/TV00000000000000000120@HHZT

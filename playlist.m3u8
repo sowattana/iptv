@@ -1,7 +1,7 @@
 #EXTM3U
 #PLAYLIST:iptvcat.com
 #EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1TgC7mx.jpg" group-title="Khmer TV",Bayon TV
-http://mobile.interface.stmg.net.kh/nn_cms/nn_cms_view/jpz/n3_a_a.php?nns_version=2.3.7.0.2.SC-JPZ-IPAD.0.0_Release&nns_output_type=json&nns_user_agent=nn_pad/ipad/1.0.0&nns_language=en_US&nns_tag=28&nns_user_id=IPADB123456789089756745634523456&nns_device_id=&nns_buss_id=2000002&nns_category_id=1000001&nns_func=apply_play_video&nns_mac_id=112233445566&nns_media_assets_id=pad_live_v1&nns_media_id=f4bb36746f145be94deb9c17d0965f74&nns_video_id=f942ece95cb181ee4111c9921737b575&nns_video_index=0&nns_video_type=1
+http:\/\/103.242.12.31:5000\/nn_live\/nn_x64\/aWQ9Q1ROLW0taCZ1cmxfYzE9MjAwMCZubl9haz0wMTMxMTBkZjg4ZDMzMTY3MTZmOGRlNWY2YWQyY2VmM2YwJm50dGw9NCZucGlwcz0xMDMuMjQyLjEyLjIxOjUxMDAmbmNtc2lkPTEwMDAzMSZuZ3M9NWYxODVkMjcwMDA5NjgyNGM0ZjcwMGNmOWFkYmVhZGUmbm5kPWV4dHJhbmV0LmlzcC5zaW5ldCZuZnQ9dHMmbm5fdXNlcl9pZD1JUEFEQjEyMzQ1Njc4OTA4OTc1Njc0NTYzNDUyMzQ1NiZuZHQ9cGFkJm5kdj0yLjMuNy4wLjIuU0MtSlBaLUlQQUQuMC4wX1JlbGVhc2UmbnN0PWlwdHYmbm5fdHJhY2VfaWQ9NWYxODVkMjcyMzk3ODNmYzU2YTNhZDU3YTRmZGM4MGEmbmNhPSUyNm5uX2NwJTNkc3VwZXJuZXQmbmFsPTAxMjc1ZDE4NWYwNjA3YWI2NWIzMzk3YWI1NmI4NDFmMWM5NTc4MTJiMDZkYWY,\/CTN-m-h.ts
 #EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="Khmer TV",Fresh News TV
 http://167.99.65.12:1935/live/ngrp:myStream_all/chunklist.m3u8?checkedby:iptvcat.com
 #EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Khmer TV",PNN

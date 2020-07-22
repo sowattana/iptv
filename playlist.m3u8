@@ -34,3 +34,5 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/pla
 http://iptv1.privateiptv.club:80/live/freeview/freeview/861.m3u8?checkedby:iptvcat.com
 #EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",NHK World (HD)
 http://iptv1.privateiptv.club:80/live/freeview/freeview/855.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",Cartoon Network (Canada)
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/2725.m3u8?checkedby:iptvcat.com

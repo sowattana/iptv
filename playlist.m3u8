@@ -36,39 +36,9 @@ http://iptv1.privateiptv.club:80/live/freeview/freeview/861.m3u8?checkedby:iptvc
 http://iptv1.privateiptv.club:80/live/freeview/freeview/855.m3u8?checkedby:iptvcat.com
 #EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",Cartoon Network (Canada)
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/2725.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",Apsara TV KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40775
-#EXTINF:-1,Bayon KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40776
-#EXTINF:-1,BTV News KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40777
-#EXTINF:-1,Cambodia TV HD KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40780
-#EXTINF:-1,CTN KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40779
-#EXTINF:-1,CTV 8 KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40778
-#EXTINF:-1,Sea TV KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40782
-#EXTINF:-1,PNN KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40781
-#EXTINF:-1,ETV KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40783
-#EXTINF:-1,Hang Meas HD KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40784
-#EXTINF:-1,MSJ TV KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40786
-#EXTINF:-1,Fresh News HD KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40787
-#EXTINF:-1,Tea TV KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40789
-#EXTINF:-1,Khmer TV KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40785
-#EXTINF:-1,Rasmey Hang Meas HD KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40788
-#EXTINF:-1,TV 5 KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40790
-#EXTINF:-1,TV 9 KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40792
-#EXTINF:-1,TVK KH
-http://31.220.3.170:25461/ghmmr7xDHH/qmo7LtCsRW/40791
+#EXTINF:-1,NATIONAL GEOGRAPHIC
+http://220.158.149.25:8180/live/TV00000000000000000115@HHZT
+#EXTINF:-1,TV5 CAMBODIA
+http://220.158.149.25:8180/live/TV00000000000000000117@HHZT
+#EXTINF:-1,RASMEY HANG MEAS
+http://220.158.149.25:8180/live/TV00000000000000000119@HHZT

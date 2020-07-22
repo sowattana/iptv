@@ -1,22 +1,36 @@
 #EXTM3U
 #PLAYLIST:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1TgC7mx.jpg" group-title="Khmer TV",Bayon TV
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1TgC7mx.jpg" group-title="News;Undefined",Bayon TV
 http://203.176.130.123:8989/live/bayontv_480k.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="Khmer TV",Fresh News TV
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="Undefined",Fresh News TV
 http://167.99.65.12:1935/live/ngrp:myStream_all/chunklist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Khmer TV",PNN
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Undefined",PNN
 http://203.176.130.123:8989/live/pnn_480k.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/KGbDcg1.jpg" group-title="Khmer TV",TV9
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/KGbDcg1.jpg" group-title="Undefined",TV9
 http://203.176.130.123:8989/live/ctv9_480k.stream/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Khmer TV",TVK
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Undefined",TVK
 http://203.176.130.123:8989/live/tvk_480k.stream/chunklist.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Khmer TV",CTN 240
-rtmp://119.82.251.230:1935/live/channel2_240p
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Khmer TV",BTV News
-rtmp://203.176.130.123:8989/live//bayontv1_480k.stream
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Khmer TV",PNN
-rtmp://203.176.130.123:8989/live//pnn_480k.stream
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="International TV",Discovery
-http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/362.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Cartoon Network
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Cartoon Network
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6931.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Disney Channel
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6925.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Disney Junior
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6927.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Disney XD
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/8983.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Sport",FOX Sports 2
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6933.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",CNN
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6411.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Discovery
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/362.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",Discovery Channel
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/9509.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="US" tvg-logo="" group-title="Undefined",HBO
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/827.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="KR" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92706/14090001.png" group-title="Undefined",Arirang,Arirang HD
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",Arirang (HD)
+http://iptv1.privateiptv.club:80/live/freeview/freeview/861.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",NHK World (HD)
+http://iptv1.privateiptv.club:80/live/freeview/freeview/855.m3u8?checkedby:iptvcat.com

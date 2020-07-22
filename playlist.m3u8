@@ -16,5 +16,7 @@ rtmp://119.82.251.230:1935/live/channel2_240p
 rtmp://203.176.130.123:8989/live//bayontv1_480k.stream
 #EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="Khmer TV",PNN
 rtmp://203.176.130.123:8989/live//pnn_480k.stream
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/GD4n70u.png" group-title="International TV",Discovery
+http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/362.m3u8?checkedby:iptvcat.com
 #EXTINF:0 tvg-country="US" tvg-logo="" group-title="International TV",Cartoon Network
 http://23.105.171.47:8000/live/Tstreamz2020/TaymilTSZ/6931.m3u8?checkedby:iptvcat.com

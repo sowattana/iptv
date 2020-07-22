@@ -1,7 +1,7 @@
 #EXTM3U
 #PLAYLIST:iptvcat.com
-#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1TgC7mx.jpg" group-title="Khmer TV",Bayon TV
-http:\/\/103.242.12.31:5000\/nn_live\/nn_x64\/aWQ9Q1ROLW0taCZ1cmxfYzE9MjAwMCZubl9haz0wMTMxMTBkZjg4ZDMzMTY3MTZmOGRlNWY2YWQyY2VmM2YwJm50dGw9NCZucGlwcz0xMDMuMjQyLjEyLjIxOjUxMDAmbmNtc2lkPTEwMDAzMSZuZ3M9NWYxODVkMjcwMDA5NjgyNGM0ZjcwMGNmOWFkYmVhZGUmbm5kPWV4dHJhbmV0LmlzcC5zaW5ldCZuZnQ9dHMmbm5fdXNlcl9pZD1JUEFEQjEyMzQ1Njc4OTA4OTc1Njc0NTYzNDUyMzQ1NiZuZHQ9cGFkJm5kdj0yLjMuNy4wLjIuU0MtSlBaLUlQQUQuMC4wX1JlbGVhc2UmbnN0PWlwdHYmbm5fdHJhY2VfaWQ9NWYxODVkMjcyMzk3ODNmYzU2YTNhZDU3YTRmZGM4MGEmbmNhPSUyNm5uX2NwJTNkc3VwZXJuZXQmbmFsPTAxMjc1ZDE4NWYwNjA3YWI2NWIzMzk3YWI1NmI4NDFmMWM5NTc4MTJiMDZkYWY,\/CTN-m-h.ts
+#EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1TgC7mx.jpg" group-title="Khmer TV",CTN TV
+http://103.242.12.31:5000/nn_live/nn_x64/aWQ9Q1ROLW0taCZ1cmxfYzE9MjAwMCZubl9haz0wMTMxMTBkZjg4ZDMzMTY3MTZmOGRlNWY2YWQyY2VmM2YwJm50dGw9NCZucGlwcz0xMDMuMjQyLjEyLjIxOjUxMDAmbmNtc2lkPTEwMDAzMSZuZ3M9NWYxODVkMjcwMDA5NjgyNGM0ZjcwMGNmOWFkYmVhZGUmbm5kPWV4dHJhbmV0LmlzcC5zaW5ldCZuZnQ9dHMmbm5fdXNlcl9pZD1JUEFEQjEyMzQ1Njc4OTA4OTc1Njc0NTYzNDUyMzQ1NiZuZHQ9cGFkJm5kdj0yLjMuNy4wLjIuU0MtSlBaLUlQQUQuMC4wX1JlbGVhc2UmbnN0PWlwdHYmbm5fdHJhY2VfaWQ9NWYxODVkMjcyMzk3ODNmYzU2YTNhZDU3YTRmZGM4MGEmbmNhPSUyNm5uX2NwJTNkc3VwZXJuZXQmbmFsPTAxMjc1ZDE4NWYwNjA3YWI2NWIzMzk3YWI1NmI4NDFmMWM5NTc4MTJiMDZkYWY,/CTN-m-h.ts
 #EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="Khmer TV",Fresh News TV
 http://167.99.65.12:1935/live/ngrp:myStream_all/chunklist.m3u8?checkedby:iptvcat.com
 #EXTINF:0 tvg-country="KH" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Khmer TV",PNN

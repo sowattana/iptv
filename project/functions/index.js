@@ -7,52 +7,58 @@ const storage = new Storage({
 });
 const axios = require('axios');
 const cheerio = require('cheerio');
-const url = 'https://iptvcat.com/s/cartoon%20network';
 const bucketName = 'iptv-e83c4.appspot.com';
+const urls = [
+    'https://iptvcat.com/cambodia',
+    'https://iptvcat.com/united%20states%20of%20america/s/cartoon%20network',
+    'https://iptvcat.com/south%20america/s/fox%20sport',
+    'https://iptvcat.com/thailand',
+    'https://iptvcat.com/south%20korea/s/Arirang',
+    'https://iptvcat.com/south%20korea/s/SBS%20International',
+    'https://iptvcat.com/japan/s/nhk%20world%20japan',
+    'https://iptvcat.com/united%20kingdom/s/disney%20channel',
+    'https://iptvcat.com/united%20states%20of%20america/s/hbo'
+]
+
+scrapping = function (content, completion) {
+    if (urls.length > 0) {
+        console.log("Start Scrapping " + urls[0])
+        setTimeout(() => {
+            axios(urls[0])
+                .then(response => {
+                    const html = response.data;
+                    const $ = cheerio.load(html);
+                    const streamTable = $('.streams_table > tr.border-solid')
+
+                    for (i = 0; i < streamTable.length - 1; i++) {
+                        var channel_name = $(streamTable.get(i)).find('td > span.channel_name').text()
+                        var channel_score = parseInt($(streamTable.get(i)).find('td > .live > .green').text())
+                        var channel_url = $(streamTable.get(i)).next().find('.get_vlc').attr('data-clipboard-text')
+                        var info = '#EXTINF:-1 tvg-id="" group-title="TV",' + channel_name
+
+                        if (channel_score > 94) {
+                            content = content + "\n" + info
+                            content = content + "\n" + channel_url
+                        }
+                    }
+                    console.log("Finished Scrapping " + urls[0])
+                    urls.splice(0, 1)
+                    scrapping(content, completion)
+                })
+                .catch(console.error);
+        }, 1000)
+    } else {
+        completion(content)
+    }
+}
 
 exports.iptv = functions.https.onRequest(async (request, response) => {
     if (request.path == '/') {
-        axios(url)
-            .then(response => {
-                const html = response.data;
-                const $ = cheerio.load(html);
-                const streamTable = $('.streams_table > tr.border-solid')
-
-                var content = "#EXTM3U"
-
-                for (i = 0; i < streamTable.length - 1; i++) {
-                    var channel_name = $(streamTable.get(i)).find('td > span.channel_name').text()
-                    var channel_score = parseInt($(streamTable.get(i)).find('td > .live > .green').text())
-                    var channel_url = $(streamTable.get(i)).next().find('.get_vlc').attr('data-clipboard-text')
-                    var info = '#EXTINF:-1 tvg-id="" group-title="TV",' + channel_name
-
-                    if (channel_score > 80) {
-                        content = content + "\n" + info
-                        content = content + "\n" + channel_url
-                    }
-                }
-
-
-                console.log(content)
-                const fs = require('fs');
-                fs.writeFileSync('./list.m3u8', content);
-
-                // upload list to Cloud Storage
-                storage.bucket(bucketName).upload("./list.m3u8", {
-                    // Support for HTTP requests made with `Accept-Encoding: gzip`
-                    gzip: true,
-                    // By setting the option `destination`, you can change the name of the
-                    // object you are uploading to a bucket.
-                    metadata: {
-                        // Enable long-lived HTTP caching headers
-                        // Use only if the contents of the file will never change
-                        // (If the contents will change, use cacheControl: 'no-cache')
-                        cacheControl: 'no-cache',
-                    },
-                });
-                return
-            })
-            .catch(console.error);
+        var content = "#EXTM3U"
+        scrapping(content, (list) => {
+            const fs = require('fs');
+            fs.writeFileSync('./list.m3u8', list);
+        })
         response.send("Hello from Firebase!");
     } else if (request.path == '/list') {
         let fs = require('fs')

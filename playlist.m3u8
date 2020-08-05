@@ -11,6 +11,8 @@ http://203.176.130.123:8989/live/pnn_480k.stream/playlist.m3u8?checkedby:iptvcat
 http://203.176.130.123:8989/live/ctv9_480k.stream/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="" group-title="TV",TVK
 http://203.176.130.123:8989/live/tvk_480k.stream/chunklist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="" group-title="TV",SEA TV
+http://96.9.77.79:1935/live/SEATV/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="TV",Cartoon Network (East)
 http://hdonline.ml:80/rana/rana/429?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="" group-title="TV",Cartoon Network (West)
